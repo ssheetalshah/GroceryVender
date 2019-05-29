@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aryanonline.SplashActivity"
+    android:gravity="center_vertical"
+    android:theme="@android:style/Theme.Translucent"
+    android:background="@drawable/nnn"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:background="#9988A86C"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:visibility="gone"
+        android:src="@drawable/newone"
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:text="Shopping App"
+        android:textSize="40dp"
+        android:textStyle="italic|bold"
+        android:typeface="serif"
+        android:textColor="#1E2763"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+   <!-- <TextView
+        android:id="@+id/app_name"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="@dimen/space_5"
+        android:textSize="@dimen/space_20"
+        android:textAlignment="center"
+        android:shadowDy="1"
+        android:shadowDx="1"
+        tools:layout_editor_absoluteY="326dp"
+        tools:layout_editor_absoluteX="10dp" />-->
+</RelativeLayout>
